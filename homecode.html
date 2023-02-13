@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>top 5 constuction companyes in Hyderabad</title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/c1254c4ea7.js" crossorigin="anonymous"></script>
+       
+    
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="home code.html">Home</a>
+        <a href="Aakrithi.html">Aakrithi</a>
+        <a href="Aditya.html">Aditya</a>
+        <a href="Aparna.html">Aparna</a>
+        <a href="Elite.html">Elite</a>
+        <a href="phoenix.html">Phoenix</a>
+        <a href="Contact.html" class="split">Contacts</a>
+    </div><br>
+    <!--========================== Slideshow container================================ -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <centre><img src="C:\Users\heman\Downloads\6.jpeg" style="width: 1000px" height="500px"></centre>
+            <div class="text">Aakrithi</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <centre><img src="C:\Users\heman\Downloads\4.jpeg" style="width: 1000px" height="500px"></centre>
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <centre><img src="C:\Users\heman\Downloads\3.jpeg" style="width:1000px" height="500px"></centre>
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <centre><img src="C:\Users\heman\Downloads\2.jpeg" style="width:1000px" height="500px"></centre>
+            <div class="text">Caption four</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <centre><img src="C:\Users\heman\Downloads\1.jpeg" style="width:1000px" height="500px"></centre>
+            <div class="text">Caption five</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div><hr>
+    <!--========================================SLIDESHOW JS================================-->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+    <div>
+        <h1>Aakriti Constructions And Developers Private Limited</h1>
+        <p>Aakriti Constructions And Developers Private Limited is a 14 years 6 months old Private Company incorporated
+            on 10 Jul 2008. Its registered office is in Hyderabad, Telangana, india.
+            The Company's status is Active, and it has filed its Annual Returns and Financial Statements up to 31 Mar
+            2021 (FY 2020-2021). It's a company limited by shares having an authorized capital of Rs 5.00 cr and a
+            paid-up capital of Rs 5.00 cr as per MCA.</p><br>
+    </div><hr>
+    <div>
+        <h1>Aditya Construction Company India Private Limited</h1>
+        <p>Aditya Construction Company India Private Limited is a 16 years 11 months old Private Company incorporated on
+            27 Feb 2006. Its registered office is in Hyderabad, Telangana, india.
+            The Company's status is Active, and it has filed its Annual Returns and Financial Statements up to 31 Mar
+            2021 (FY 2020-2021). It's a company limited by shares having an authorized capital of Rs 10.00 cr and a
+            paid-up capital of Rs 10.00 cr as per MCA.</p>
+    </div><hr>
+    <div>
+        <h1>Aparna Constructions And Estates Private Limited</h1>
+        <p>Aparna Constructions And Estates Private Limited is a 26 years 4 months old Private Company incorporated on
+            01 Oct 1996. Its registered office is in Hyderabad, Telangana, india.
+            The Company's status is Active, and it has filed its Annual Returns and Financial Statements up to 31 Mar
+            2022 (FY 2021-2022). It's a company limited by shares having an authorized capital of Rs 100.10 cr and a
+            paid-up capital of Rs 50.00 cr as per MCA.</p>
+    </div><hr>
+    <div>
+        <h1>Elite Engineering & Construction (Hyd) Private Limited</h1>
+        <p>Elite Engineering & Construction (Hyd) Private Limited is a 12 years 5 months old Private Company
+            incorporated on 27 Aug 2010. Its registered office is in Hyderabad, Telangana, india.
+            The Company's status is Active, and it has filed its Annual Returns and Financial Statements up to 31 Mar
+            2021 (FY 2020-2021). It's a company limited by shares having an authorized capital of Rs 6.00 cr and a
+            paid-up capital of Rs 5.55 cr as per MCA.</p>
+    </div><hr>
+    <div>
+        <h1>Phoenix Constructions Private Limited</h1>
+        <p>Phoenix Constructions Private Limited is an Strike Off company established on 16 Jan 1987 with its office
+            registered at No.5,'G' Street,Ulsoor,Bangalore-8. Bangalore Ka 000000 In and has been running since 36 years
+            16 days with a paid up capital of 0.00 lakh. According to MCA records, 0 Directors are linked to this
+            company as of 27 Jan 2020</p>
+    </div><hr>
+
+<div>
+    <address>
+        <h1>Usefule links</h1><br>
+        <a href="home code.html">Home</a><br>
+        <a href="Aakrithi.html">Aakrithi</a><br>
+        <a href="Aditya.html">Aditya</a><br>
+        <a href="Aparna.html">Aparna</a><br>
+        <a href="Elite.html">Elite</a><br>
+        <a href="phoenix.html">Phoenix</a><br>
+        <a href="Contact.html" class="split">Contacts</a><br>
+
+        <a href="mailto:hemanthkumarsandasani@gmail.com"><i class="fa-sharp fa-solid fa-circle-envelope"></i> Gmail</a><br>
+        <a href="https://www.instagram.com/hemanthsandasani/"><i class="fa-brands fa-square-instagram"></i>Instagram</a><br>
+    </address>
+</div>
+
+</body>
+
+</html>
